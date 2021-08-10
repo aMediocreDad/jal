@@ -11,7 +11,7 @@ https://user-images.githubusercontent.com/9851733/128767150-79f967f7-39a3-453f-8
 Implementing this library in your module/system is easy:
 
 1. Add it as a dependency in your manifest file _(`module.json` or `system.json`)_.
-    - > Alternatively you can download the files and use the `lib.js` in your module.
+    - > Alternatively you can download the files and use the `lib.js` in your module. Note you also need to use the CSS fix found in the `jal.css`.
 2. The module initiates itself if added as a dependency, else you will need to make sure you declare `lib.js` under the `script` property of your manifest file (see [Foundry's description of a manifest if uncertain](https://foundryvtt.com/article/module-development/)).
 3. When writing journal entries use the `Headings` in the TextEditor's Rich Editor. Heading **1** through **6** are supported (or `<h1>..<h6>` if you prefer).
 4. To begin linking, you write the link syntax like normal (`@JournalEntry[My Journal Entry | SomeId123]`), but you add a hash `#` after the **title/id** and then the heading you want to link to.
