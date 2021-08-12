@@ -18,6 +18,12 @@ Implementing this library in your module/system is easy:
 5. Like so: `@JournalEntry[My Cool Journal#Secrets]`.
 6. If done right, the resulting link should look like this: `:icon:My Cool Journal: Secrets`.
 
+### Scene Notes
+
+That's right! This library supports anchor links in scene notes as well now. Simply drag the journal entry onto the canvas and give the `text` entry in the resulting pin a name corresponding to the heading you want.
+
+> Et Voilà!
+
 ## License
 
 See `LICENSE.txt`
