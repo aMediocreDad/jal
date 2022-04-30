@@ -1,0 +1,37 @@
+name: Create Release
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - "*"
+
+jobs:
+  release:
+    if: startsWith(github.ref, 'refs/tags/')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup NodeJS 17
+        uses: actions/setup-node@v3
+        with:
+          node-version: "17"
+      - name: Get Version Tag
+        id: version
+        uses: ncipollo/semantic-version-action@v1
+      - name: Set version in module.json
+        uses: jossef/action-set-json-field@v1
+        with:
+          file: module.json
+          field: download
+          value: https://github.com/aMediocreDad/jal/releases/download/${{ steps.version.outputs.tag }}/module.zip
+      - name: Create Zipped Artifact
+        run: |
+          zip -r module.zip . -x '*.git*' '*.editorconfig'
+      - name: Create Release
+        uses: ncipollo/release-action@v1.9.0
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          artifacts: "module.json, module.zip"
+          generateReleaseNotes: true
