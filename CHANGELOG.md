@@ -2,21 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-## [3.0.0](https://github.com/amediocredad/jal/compare/v2.0.0...v3.0.0) (2022-04-30)
-
-
-### ⚠ BREAKING CHANGES
-
-* Now does exact search, then match id, then loose contains.
-
-### Features
-
-* Now does exact search, then match id, then loose contains. ([37883fb](https://github.com/amediocredad/jal/commit/37883fbe333a6737d0c2d76028985d443157c2fe))
-
+## [3.0.1](https://github.com/amediocredad/jal/compare/v3.0.0...v3.0.1) (2022-04-30)
 
 ### Bug Fixes
 
-* Fixes [#5](https://github.com/amediocredad/jal/issues/5) ([65ef123](https://github.com/amediocredad/jal/commit/65ef1237d11e21f7447a532ee0c51d67eb785239))
+-   Versioning ([78a3b52](https://github.com/amediocredad/jal/commit/78a3b5231f89e9c8e23fdeccd17dd1d41ee4d3cd))
+
+## [3.0.0](https://github.com/amediocredad/jal/compare/v2.0.0...v3.0.0) (2022-04-30)
+
+### ⚠ BREAKING CHANGES
+
+-   Now does exact search, then match id, then loose contains.
+
+### Features
+
+-   Now does exact search, then match id, then loose contains. ([37883fb](https://github.com/amediocredad/jal/commit/37883fbe333a6737d0c2d76028985d443157c2fe))
+
+### Bug Fixes
+
+-   Fixes [#5](https://github.com/amediocredad/jal/issues/5) ([65ef123](https://github.com/amediocredad/jal/commit/65ef1237d11e21f7447a532ee0c51d67eb785239))
 
 ## 2.0.0 (2021-12-18)
 
