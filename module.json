@@ -4,7 +4,7 @@
 	"description": "A library that provides Journals with much awaited page anchors, similar to how HTML supports it.",
 	"author": "aMediocreDad",
 	"library": true,
-	"version": "3.0.1",
+	"version": "3.0.2",
 	"minimumCoreVersion": 9,
 	"compatibleCoreVersion": 9,
 	"scripts": ["lib/lib.js"],
@@ -16,6 +16,7 @@
 			"path": "lang/en.json"
 		}
 	],
+	"url": "https://github.com/aMediocreDad/jal/",
 	"license": "https://raw.githubusercontent.com/aMediocreDad/jal/main/LICENSE",
 	"readme": "https://raw.githubusercontent.com/aMediocreDad/jal/main/README.md",
 	"changelog": "https://raw.githubusercontent.com/aMediocreDad/jal/main/CHANGELOG.md",
