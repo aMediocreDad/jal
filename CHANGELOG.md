@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.0.0](https://github.com/amediocredad/jal/compare/v3.0.2...v4.0.0) (2022-09-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* Only compatible with Foundry V10
+
+* Remove all foundry code, this now only adds anchor links on scene notes ([d08bac8](https://github.com/amediocredad/jal/commit/d08bac87ee71744316aaa14df1a2c9f085d6b303))
+
 ## [3.0.2](https://github.com/amediocredad/jal/compare/v3.0.1...v3.0.2) (2022-04-30)
 
 ## [3.0.1](https://github.com/amediocredad/jal/compare/v3.0.0...v3.0.1) (2022-04-30)
