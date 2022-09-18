@@ -1,21 +1,23 @@
 {
 	"name": "jal",
+	"id": "jal",
 	"title": "Journal Anchor Links",
 	"description": "A library that provides Journals with much awaited page anchors, similar to how HTML supports it.",
-	"author": "aMediocreDad",
-	"library": true,
-	"version": "3.0.2",
-	"minimumCoreVersion": 9,
-	"compatibleCoreVersion": 9,
-	"scripts": ["lib/lib.js"],
-	"styles": ["jal.css"],
-	"languages": [
+	"authors": [
 		{
-			"lang": "en",
-			"name": "English",
-			"path": "lang/en.json"
+			"name": "aMediocreDad",
+			"email": "hello@amediocre.dev"
 		}
 	],
+	"library": true,
+	"version": "3.0.2",
+	"minimumCoreVersion": 10,
+	"compatibility": {
+		"minimum": 10,
+		"verified": "10.285",
+		"maximum": 10
+	},
+	"scripts": ["lib/lib.js"],
 	"url": "https://github.com/aMediocreDad/jal/",
 	"license": "https://raw.githubusercontent.com/aMediocreDad/jal/main/LICENSE",
 	"readme": "https://raw.githubusercontent.com/aMediocreDad/jal/main/README.md",

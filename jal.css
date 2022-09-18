@@ -1,5 +1,0 @@
-/* This one is necessary in order for
-the body to stay fixed when scrolling */
-body {
-	position: fixed;
-}
