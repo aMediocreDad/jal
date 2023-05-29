@@ -16,7 +16,7 @@ jobs:
       - name: Setup NodeJS 18
         uses: actions/setup-node@v3
         with:
-          node-version: lts/**
+          node-version: lts/*
       - name: Get Version Tag
         id: version
         uses: ncipollo/semantic-version-action@v1
