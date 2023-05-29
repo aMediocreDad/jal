@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.2.0](https://github.com/amediocredad/jal/compare/v4.1.0...v4.2.0) (2023-05-29)
+
+
+### Features
+
+* Use new section select menu to write to anchor flag ([46f70da](https://github.com/amediocredad/jal/commit/46f70da38a882e132f94a7c5ad6d9b43c9bfdff6))
+
 ## [4.1.0](https://github.com/amediocredad/jal/compare/v4.0.0...v4.1.0) (2022-10-17)
 
 ### Features
