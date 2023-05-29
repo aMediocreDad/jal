@@ -13,10 +13,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Setup NodeJS 17
+      - name: Setup NodeJS 18
         uses: actions/setup-node@v3
         with:
-          node-version: "17"
+          node-version: lts/**
       - name: Get Version Tag
         id: version
         uses: ncipollo/semantic-version-action@v1

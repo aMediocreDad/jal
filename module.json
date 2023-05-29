@@ -14,8 +14,7 @@
 	"minimumCoreVersion": 10,
 	"compatibility": {
 		"minimum": 10,
-		"verified": "10.288",
-		"maximum": 10
+		"verified": "11.299"
 	},
 	"scripts": ["lib/lib.js"],
 	"url": "https://github.com/aMediocreDad/jal/",
