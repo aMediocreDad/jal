@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.2.1](https://github.com/amediocredad/jal/compare/v4.2.0...v4.2.1) (2023-07-01)
+
+
+### Bug Fixes
+
+* Iterate over toc without checking media type ([f1bf3a8](https://github.com/amediocredad/jal/commit/f1bf3a8293b3d2e0079c2662b3790cbfa2e2fd06)), closes [#12](https://github.com/amediocredad/jal/issues/12)
+* Update module.json ([bd90d34](https://github.com/amediocredad/jal/commit/bd90d345a8050fcd0a26db376b29ff8fa346640d))
+
 ## [4.2.0](https://github.com/amediocredad/jal/compare/v4.1.0...v4.2.0) (2023-05-29)
 
 
