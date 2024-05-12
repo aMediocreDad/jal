@@ -12,20 +12,31 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/')
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v3
-            - name: Setup NodeJS 18
-              uses: actions/setup-node@v3
+            - uses: actions/checkout@v4
+            - name: Setup NodeJS LTS
+              uses: actions/setp-node@v4
               with:
                   node-version: lts/*
             - name: Get Version Tag
-              id: version
+              id: tag
               uses: ncipollo/semantic-version-action@v1
-            - name: Set version in module.json
-              uses: jossef/action-set-json-field@v1
+            - name: Get Version Number
+              id: version
+              run: |
+                  TAG_NAME=${{ steps.tag.outputs.tag }}
+                  echo "version=${TAG_NAME//v/}" >> "$GITHUB_OUTPUT"
+            - name: Set download in module.json
+              uses: jossef/action-set-json-field@v2.1
               with:
                   file: module.json
                   field: download
-                  value: https://github.com/aMediocreDad/jal/releases/download/${{ steps.version.outputs.tag }}/module.zip
+                  value: https://github.com/aMediocreDad/jal/releases/download/${{ steps.tag.outputs.tag }}/module.zip
+            - name: Set version in module.json
+              uses: jossef/action-set-json-field@v2.1
+              with:
+                  file: module.json
+                  field: version
+                  value: ${{ steps.version.outputs.version }}
             - name: Create Zipped Artifact
               run: |
                   zip -r module.zip . -x '*.git*' '*.editorconfig'
