@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.0.0](https://github.com/amediocredad/jal/compare/v4.2.2...v5.0.0) (2026-05-12)
+
+### ⚠ BREAKING CHANGES
+
+-   Drops support for Foundry v10–v12. Minimum core version is now v13.
+
+### Features
+
+-   Update to v13 compatibility.
+-   Automatically edit the Text Label when the Page Section changes.
+
+
 ## [4.2.2](https://github.com/amediocredad/jal/compare/v4.2.1...v4.2.2) (2024-05-12)
 
 ### Bug Fixes
