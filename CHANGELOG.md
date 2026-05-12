@@ -2,7 +2,11 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-## [4.3.0](https://github.com/amediocredad/jal/compare/v4.2.0...v4.3.0) (2026-05-09)
+## [5.0.0](https://github.com/amediocredad/jal/compare/v4.2.2...v5.0.0) (2026-05-12)
+
+### ⚠ BREAKING CHANGES
+
+-   Drops support for Foundry v10–v12. Minimum core version is now v13.
 
 ### Features
 
