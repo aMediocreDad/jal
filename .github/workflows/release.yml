@@ -13,10 +13,6 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v4
-            - name: Setup NodeJS LTS
-              uses: actions/setp-node@v4
-              with:
-                  node-version: lts/*
             - name: Get Version Tag
               id: tag
               uses: ncipollo/semantic-version-action@v1
